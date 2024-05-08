@@ -16,7 +16,7 @@ def summer_temp(hour):
     elif 6 <= hour < 16:
         return 1.36 * hour + 18.82
     elif
-        16 < hour < 24:
+        16 <= hour < 24:
         return -1.07 * hour + 59.14
 
 # Winter temperature equations
